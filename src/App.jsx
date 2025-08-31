@@ -1,7 +1,11 @@
+import OtpReceiver from "./components/OtpRecevier"
+import "./App.css"
+import SelectColors from "./components/SelectColors.jsx"
 function App(){
     return(
         <div>
-            <h1>VoltusWave technology</h1>
+          {/* <OtpReceiver/> */}
+          <SelectColors/>
         </div>
     )
 }
